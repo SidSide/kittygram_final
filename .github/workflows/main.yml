@@ -192,7 +192,7 @@ jobs:
         # с которым установлено соединение
         script: |
           cd kittygram_final
-          # Выполняет pull образов с Docker Hub
+          # Выполняет pull образов с Docker Hub 
           sudo docker compose -f docker-compose.production.yml pull
           # Перезапускает все контейнеры в Docker Compose
           sudo docker compose -f docker-compose.production.yml down
