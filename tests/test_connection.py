@@ -142,8 +142,8 @@ def test_kittygram_api_available(
                                kittygram_link_key)
     signup_link = f'{link}/api/users/'
     form_data = {
-        'username': 'newuser',
-        'password': ''
+        'username': 'Sid',
+        'password': 'Sid123456'
     }
     assert_msg = (
         'Убедитесь, что API проекта `Kittygram` доступен по ссылке формата '
